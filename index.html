@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Writer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header><h1 class="Top">Word Writer</h1></header>
+    <main>
+        <section>
+            <div class="starttext">Type the given Acronym within <span id="giventime">0</span> seconds</div>
+            <div id="currentword">hello </div>
+            <input type="text" 
+            id="wordinput"
+            placeholder="Start typing...">
+            <h3 id="result">Message</h3>
+        </section>
+        <section>
+            <div class="a" ><Time><h3>Time Left : <span id="remaintime">0</span>
+            </h3>
+            </div>
+            <div class="b">
+                <h3>Score : <span 
+                id="currentscore">0</span></h3>
+            </div>
+            <br>
+        </section>
+   
+        <div class="lastdiv">
+            <h5>Instrutions</h5>
+            <p>Type each words in the given amount of seconds to score.To play again, just type the current acronym. Your score will reset.</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
